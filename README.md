@@ -9,4 +9,5 @@ Voici comment s'utilise le module:
 ```js
 const dutils = require("discord-utils")
 dutils.reply(client, message, <"votre_message">, [message_id]) // cette fonction vous permet de répondre à un message 
+dutils.block(message, <"votre_message">) // envoie un message en remplacent les lettres par des emojis
 ```
