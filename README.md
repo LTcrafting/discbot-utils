@@ -1,6 +1,6 @@
 # discord-utils
 Ce module pour Discord.js vous donne accès à des fonction simple et utiles
-<h1>Utilisation</h1>
+<h2>💻 Utilisation</h2>
 Avec ce module pour **Discord.js** vous pourrez réaliser des actions simple mais utile sans ce compliqué la vie
 
 Voici comment s'utilise le module:<br>
