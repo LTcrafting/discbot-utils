@@ -5,6 +5,9 @@ Ce module pour Discord.js vous donne accès à des fonction simple et utiles
 Avec ce module pour **Discord.js** vous pourrez réaliser des actions simple mais utile sans ce compliqué la vie
 <br><br>
 Voici comment s'utilise le module:<br>
+⚠ **Pour les fonctions nécessitant des paramètres, si vous ne voulez pas en mettre laissez les acolades vides**
+**ex: dutils.reply(client, message, "coucou", {}) → pour répondre au message de l'utilisateur de la commande**
+**dutils.reply(client, message, "coucou", {msgId: '830412730519388190'}) → pour répondre à un message en particulié**
 
 ```js
 const dutils = require("discord-utils")
