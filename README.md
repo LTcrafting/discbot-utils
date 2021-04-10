@@ -14,5 +14,5 @@ dutils.poll(message, "votre_description", {choice1: "choix n°1", choice2: "choi
 dutils.ticket_create(message, 'roleID') // permet de crée un ticket et seul les personne ayant le role, la personne qui a ouvert le ticket et les personnes qui ont la perm d'administrateur ont accès au ticket
 dutils.ticket_delete(message) // permet de fermer un ticket
 
-dutils.eval(client, message, args, <VotreCode>) // vous permet d'evaluer un code (comme une commande eval)
+dutils.eval(client, message, args, VotreCode) // vous permet d'evaluer un code (comme une commande eval)
 ```
