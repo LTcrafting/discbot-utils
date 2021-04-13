@@ -1,5 +1,11 @@
 # discord-utils
 Ce module pour Discord.js vous donne accès à des fonction simple et utiles
+
+<h1>Installation</h1><br>
+```
+npm i discord-utils
+```
+
 <h3>💻 Utilisation</h3>
 
 Avec ce module pour **Discord.js** vous pourrez réaliser des actions simple mais utile sans ce compliqué la vie
