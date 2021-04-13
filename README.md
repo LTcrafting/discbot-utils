@@ -17,7 +17,7 @@ dutils.poll(message, {description: "votre_description", choice1: "choix n°1", c
 dutils.ticketCreate(message, 'roleID') // permet de crée un ticket et seul les personne ayant le role, la personne qui a ouvert le ticket et les personnes qui ont la perm d'administrateur ont accès au ticket
 dutils.ticketDelete(message) // permet de fermer un ticket
 
-dutils.eval(client, message, args, VotreCode) // vous permet d'evaluer un code (comme une commande eval)
+dutils.eval(client, message, args, votreCode) // vous permet d'evaluer un code (comme une commande eval)
 dutils.userInfo(message, member /*dois toujours être un member ex: message.guild.members.cache.get(args[0])*/, {accountCreatedAt, serverJoinedAt, nickname, customStatut, statut, id, plateform, thumbnail, color}) // permet d'avoir des info sur un membre
 dutils.emojiInfo(message, emoji /*ex: message.guild.emojis.cache.find(x => x.name === args[0])*/, {name, shortId, longId, link, image, color}) // permet d'avoir des infos sur un emoji
 dutils.reload(client, message, commande, /*ex: args[0]*/ {path: "chemin vers votre dossier commande"}) // permet de reload une commande
