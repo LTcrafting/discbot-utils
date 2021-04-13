@@ -1,10 +1,10 @@
-# discord-utils
+# discbot-utils
 Ce module pour Discord.js vous donne accès à des fonction simple et utiles
 
 <h1>Installation</h1>
 
 ```
-npm i discord-utils
+npm i discbot-utils
 ```
 
 <h3>💻 Utilisation</h3>
@@ -17,7 +17,7 @@ Voici comment s'utilise le module:<br>
 **`dutils.reply(client, message, "coucou", {msgId: '830412730519388190'})` → pour répondre à un message en particulié**<br>
 
 ```js
-const dutils = require("discord-utils")
+const dutils = require("discbot-utils")
 dutils.reply(client, message, "votre_message", {msgId: "id_du_message"}) // cette fonction vous permet de répondre à un message 
 dutils.block(message, "votre_message") // envoie un message en remplacent les lettres par des emojis
 dutils.poll(message, {description: "votre_description", choice1: "choix n°1", choice2: "choix n°2", choice3: "choix n°3", choice4: "choix n°4"}) // permet de faire un sondage à plusieurs choix
