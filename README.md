@@ -2,7 +2,7 @@
 Ce module pour Discord.js vous donne accès à des fonction simple et utiles
 
 <h1>Installation</h1>
-<br>
+
 ```
 npm i discord-utils
 ```
